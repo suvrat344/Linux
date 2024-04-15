@@ -1,0 +1,14 @@
+Hello how are you
+
+# This is the first question of grep
+are you excited?
+are you scared?
+
+#This is not a heading, it is a tag
+you didn't print that did you?
+
+## This is however, a heading
+
+Print me!
+
+######### Do you think this is a heading? I don't think so
