@@ -13,6 +13,6 @@
 # Trinidad and Tobago, Port of Spain; South America
 # Ghana, Accra; Africa
 # Write a bash script to print all the countries in the file `file.txt` sorted alphabetically by name in reverse order.
-# (Hint: Use the command ` sort -r ` to sort in reverse order)
+# (Hint: Use the command `sort -r` to sort in reverse order)
 
 cut -d "," -f1 file.txt | sort -r
