@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Given an access.log similar to previous question in your standard input,print how many times request has been sent to the server   # from a:
+# Given an access2.log similar to previous question in your standard input,print how many times request has been sent to the server   # from a:
 # - Macintosh
 # - Windows
 # - Linux
