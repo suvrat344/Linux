@@ -1,0 +1,3 @@
+-rw-r--r-- 1 suvrat344 suvrat344 0 Mar 20 11:49 file.txt
+-rw-r--r-- 1 suvrat344 suvrat344 0 Mar 20 11:53 noFiles.txt
+-rw-r--r-- 1 suvrat344 suvrat344 0 Mar 20 11:53 textFiles.txt
