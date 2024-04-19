@@ -7,3 +7,5 @@
 
 export GITHUB_USERNAME="suvrat344"
 export GITHUB_REPOSITORY="se2001-23f1002147"
+
+git ls-remote "https://github.com/$GITHUB_USERNAME/$GITHUB_REPOSITORY"
