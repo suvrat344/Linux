@@ -1,0 +1,11 @@
+Ajay,Chennai,Sales,40
+Mona,Mumbai,Sales,60
+Rajan,Patna,Buisness,50
+Narayanan,Kochi,Sales,30
+Anuj,Pune,Sales,70
+Mohan,Jaipur,Buisness,70
+Naga,Vizag,Sales,45
+Chaitrali,Nagpur,Sales,90
+Sanjana,Delhi,Buisness,80
+Maitreyi,Bhopal,Sales,30
+Sreni,Bangaluru,Sales,20
