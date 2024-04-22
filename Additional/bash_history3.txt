@@ -1,0 +1,20 @@
+exit --help
+$$
+ps
+ps |grep "$$"
+$$
+ps |grep $$
+man $$
+man shell varialbe
+man shell
+man bash
+man bash|grep $$
+man bash
+echo 123|rev
+echo 123 | rev
+man rev
+echo 123 | rev
+$$
+ps
+$1
+exit

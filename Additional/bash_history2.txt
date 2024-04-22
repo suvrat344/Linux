@@ -1,0 +1,6 @@
+apt
+apt
+ls
+ls
+man
+man
