@@ -1,0 +1,22 @@
+...
+        if self.propagate_exceptions:
+            # if we want to repropagate the exception, we can attempt to
+            # raise it with the whole traceback in case we can do that
+            # (the function was actually called from the except part)
+            # otherwise, we just raise the error again
+            if exc_value is e:
+                reraise(exc_type, exc_value, tb)
+            else:
+                raise e
+
+        self.log_exception((exc_type, exc_value, tb))
+        server_error = InternalServerError()
+        # TODO: pass as param when Werkzeug>=1.0.0 is required.
+        # TODO: also remove note about this from docstring and docs
+        server_error.original_exception = e
+        handler = self._find_error_handler(server_error)
+
+        if handler is not None:
+            server_error = handler(server_error
+
+# TODO: Complete this main function2)
