@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Raj is a lazy student, he is in his bachelor's degree programme.He has decided to apply for a masters in data science program in   various universities,so he wrote a general letter template and populated the respective values such as university name,experience andcurrent position.
+# Raj is a lazy student,he is in his bachelor's degree programme.He has decided to apply for a masters in data science program in    various universities,so he wrote a general letter template and populated the respective values such as university name,experience andcurrent position.
 # Write a script to achieve the same and get the university name,experience,and current_position from the standard input respectivelyand print the populated text.
 # **Template: template.txt**
 # Dear Members of the Admission Committee,
