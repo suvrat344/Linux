@@ -18,6 +18,8 @@
 # ./script.sh chennai min average
 # This returns the ` average ` of the ` min `imum temperature of city ` chennai ` on all days given in forecast.
 
+
+# wget -o s1.txt "http://weather.local/city/$1.html"
 city=$1
 min_max=$2
 mode_average=$3
