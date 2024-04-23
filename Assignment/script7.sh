@@ -26,6 +26,8 @@ city=$1
 flag=$2
 parameter=$3
 
+# wget  "http://weather.local/api/v1/city/$city.json"
+
 if [[ $flag == "-C" ]]
 then
 	if [[ $parameter == "min" ]]
