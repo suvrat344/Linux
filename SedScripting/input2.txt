@@ -1,0 +1,7 @@
+
+1 delta
+delta
+3 beta
+4 alpha
+5 alpha delta kappa delta
+gamma
