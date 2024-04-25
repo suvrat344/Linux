@@ -1,0 +1,19 @@
+# Define a function ` fibonacci(n) ` in file `script3.bc `.
+# The function takes one positional argument which is an integer, say `n`, and returns `n`th Fibonacci number in Fibonacci sequence.
+# Hint : Functions in ` bc `.
+# ## Example :
+# Fibonacci sequence : 0, 1, 1, 2, 3, 5, 8, 13, .....
+# If the function is invoked as ` fibonacci(5) `, then the output should be `3`, as ` 3 ` is at the ` 5 `th position in the Fibonaccisequence.
+
+define fibonacci(n) {
+	fib0 = 0
+	fib1 = 1
+	for (i = 1;i <= n-2;i++){
+		fib2= fib0 + fib1 
+		fib0 = fib1
+		fib1 = fib2
+	}
+	return fib2
+}
+
+# bc -q script3.bc <<< "fibonacci(5)"
